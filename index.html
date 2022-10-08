@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,8 +9,8 @@
   </head>
   <body>
     <nav class="nav">
-      <div nav__links>
-        <a href="#" class="nav__logo-link">
+      <div class="nav__links">
+        <a href="google.com" class="nav__logo-link">
           <img src="imgs/icons/nomadcoders-logo.png" />
         </a>
         <a href="#" class="nav__link">Courses</a>
@@ -26,11 +26,13 @@
             <img src="imgs/icons/user-icon.png" />
           </label>
           <input type="checkbox" id="nav__user__menu" />
-          <ul class="nav__user__ul">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Edit Profile</a></li>
-            <li><a href="#">Sign out</a></li>
-          </ul>
+          <div class="nav__user__ul-box">
+            <ul class="nav__user__ul">
+              <li><a href="#">Dashboard</a></li>
+              <li><a href="#">Edit Profile</a></li>
+              <li><a href="#">Sign out</a></li>
+            </ul>
+          </div>
         </a>
         <a href="#"><i class="fa-solid fa-bell"></i></a>
       </div>
