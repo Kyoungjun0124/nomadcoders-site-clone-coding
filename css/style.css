@@ -14,7 +14,7 @@ a {
 .flex {
   display: flex;
 }
-.bg-dark-blue {
+.bg-gray {
   background-color: rgb(31, 41, 55);
 }
 .width-100vw {
@@ -45,4 +45,13 @@ a {
   font-size: 18px;
   border-radius: 10px;
   margin-top: 60px;
+}
+.diagonal {
+  width: 0px;
+  height: 0px;
+  background-color: rgb(31, 41, 55);
+  border-top: 66px solid rgb(31, 41, 55);
+  border-left: 761px solid rgb(31, 41, 55);
+  border-bottom: 66px solid rgb(17, 24, 39);
+  border-right: 761px solid rgb(17, 24, 39);
 }
