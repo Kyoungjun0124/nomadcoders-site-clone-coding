@@ -17,6 +17,10 @@ a {
 .bg-gray {
   background-color: rgb(31, 41, 55);
 }
+.bg-dark-blue {
+  color: rgb(17, 24, 39);
+}
+
 .width-100vw {
   width: 100vw;
 }
