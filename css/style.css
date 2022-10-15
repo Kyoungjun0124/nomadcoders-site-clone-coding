@@ -19,9 +19,19 @@ a {
   background-color: rgb(31, 41, 55);
 }
 .bg-dark-blue {
-  color: rgb(17, 24, 39);
+  background-color: rgb(17, 24, 39);
 }
-
 .width-100vw {
   width: 100vw;
+}
+.new-course {
+  text-align: center;
+}
+.new-course__h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.new-course__h2 {
+  font-size: 20px;
 }

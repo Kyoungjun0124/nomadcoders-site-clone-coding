@@ -5,6 +5,7 @@
   padding-bottom: 14px;
   position: fixed;
   border-bottom: rgb(28, 37, 50) 2px solid;
+  box-sizing: border-box;
 }
 .nav__flex-end {
   margin-right: 11%;
