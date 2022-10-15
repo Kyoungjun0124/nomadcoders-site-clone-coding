@@ -5,6 +5,7 @@
 body {
   font-family: "Spoqa Han Sans Neo", "sans-serif";
   height: 500vh;
+  color: white;
 }
 a {
   text-decoration: none;
@@ -15,4 +16,33 @@ a {
 }
 .bg-dark-blue {
   background-color: rgb(31, 41, 55);
+}
+.width-100vw {
+  width: 100vw;
+}
+.header-box {
+  padding-top: 65px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.header-box__header {
+  margin-top: 100px;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 30px;
+}
+.header-box__p {
+  font-size: 20px;
+  color: rgb(209, 213, 219);
+  line-height: 25px;
+  margin-bottom: 60px;
+}
+.header-box__a {
+  background-color: white;
+  color: black;
+  padding: 16px 25px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 60px;
 }
